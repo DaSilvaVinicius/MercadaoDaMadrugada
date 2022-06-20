@@ -11,6 +11,7 @@ namespace Business.Models
         public string Imagem { get; set; }
         public DateTime DataCadastro { get; set; }
         public decimal Valor { get; set; }
+        public int Quantidade { get; set; }
         public bool EstoqueDisponivel { get; set; }
         public Fornecedor Fornecedor { get; set; }
         public Guid FornecedorId { get; set; }

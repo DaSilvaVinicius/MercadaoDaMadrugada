@@ -19,7 +19,7 @@ namespace App.ViewModels
         public string Descricao { get; set; }
 
         [DisplayName("Imagem do Produto")]
-        //public IFormFile ImagemUpload { get; set; }
+        public IFormFile ImagemUpload { get; set; }
 
         public string Imagem { get; set; }
         
@@ -28,6 +28,9 @@ namespace App.ViewModels
 
         [Required(ErrorMessage = "Digite o {0.ToLower()} do produto.")]
         public decimal Valor { get; set; }
+
+        [Required(ErrorMessage = "Digite a {0.ToLower()} de produtos.")]
+        public int Quantidade { get; set; }
 
         public bool EstoqueDisponivel { get; set; }
 
