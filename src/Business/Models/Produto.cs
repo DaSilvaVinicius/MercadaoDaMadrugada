@@ -14,6 +14,6 @@ namespace Business.Models
         public int Quantidade { get; set; }
         public bool EstoqueDisponivel { get; set; }
         public Fornecedor Fornecedor { get; set; }
-        public Guid FornecedorId { get; set; }
+        public Guid IdFornecedor { get; set; }
     }
 }

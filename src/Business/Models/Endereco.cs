@@ -12,6 +12,8 @@ namespace Business.Models
         public string Bairro { get; set; }
         public string Logradouro { get; set; }
         public string Numero { get; set; }
-        public string Complemento { get; set; }                   
+        public string Complemento { get; set; }
+        public Fornecedor Fornecedor { get; set; }
+        public Guid IdFornecedor { get; set; }
     }
 }

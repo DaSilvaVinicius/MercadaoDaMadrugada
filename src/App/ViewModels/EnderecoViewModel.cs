@@ -35,6 +35,6 @@ namespace App.ViewModels
         public string Complemento { get; set; }
 
         [HiddenInput]
-        public Guid IdDonoEndereco { get; set; }
+        public Guid IdFornecedor { get; set; }
     }
 }
